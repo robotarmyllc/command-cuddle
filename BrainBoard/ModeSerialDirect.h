@@ -8,7 +8,7 @@
 #ifndef MODE_SERIAL_DIRECT_H
 #define MODE_SERIAL_DIRECT_H
 
-#include <Serial.h>
+//#include <Serial.h>
 
 class ModeSerialDirect {
   public:

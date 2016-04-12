@@ -5,7 +5,7 @@
  */
 #include "ModeSerialDirect.h"
 #include "BrainBoard.h"
-#include "Serial.h"
+//#include "Serial.h"   // Not needed in Arduino 1.6 and above
 
 ModeSerialDirect::ModeSerialDirect() {}
 

@@ -19,17 +19,17 @@ class DeltaKinetics {
      float diff[3];
      
    private:
-     static const float a = 3; // length of hip, flat piece
-     static const float b = 8; // length of ankle, tube
-     static const float r0 = 1.5; // radius of base
-     static const float R0 = 1; // radius of effector
+     static const float a; // length of hip, flat piece
+     static const float b; // length of ankle, tube
+     static const float r0; // radius of base
+     static const float R0; // radius of effector
     
-     static const float zMax = 9.5;  // Z max input (when x,y=0)
-     static const float zMin = 5.00;  // Z min input (when x,y=0)
+     static const float zMax;  // Z max input (when x,y=0)
+     static const float zMin;  // Z min input (when x,y=0)
     
-     static const float incrementx = 0.10;
-     static const float incrementy = 0.10;
-     static const float incrementz = 0.10;
+     static const float incrementx;
+     static const float incrementy;
+     static const float incrementz;
     
      static const float theta[3];
 

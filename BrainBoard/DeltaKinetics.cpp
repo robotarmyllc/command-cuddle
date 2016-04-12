@@ -10,6 +10,17 @@
 DeltaKinetics::DeltaKinetics() {}
 
 const float DeltaKinetics::theta[3] = { 0, 120*M_PI/180, -120*M_PI/180 };
+const float DeltaKinetics::a = 3; // length of hip, flat piece
+const float DeltaKinetics::b = 8; // length of ankle, tube
+const float DeltaKinetics::r0 = 1.5; // radius of base
+const float DeltaKinetics::R0 = 1; // radius of effector
+    
+const float DeltaKinetics::zMax = 9.5;  // Z max input (when x,y=0)
+const float DeltaKinetics::zMin = 5.00;  // Z min input (when x,y=0)
+    
+const float DeltaKinetics::incrementx = 0.10;
+const float DeltaKinetics::incrementy = 0.10;
+const float DeltaKinetics::incrementz = 0.10;
 
 void DeltaKinetics::begin() {
   xg = 0; // position of effector

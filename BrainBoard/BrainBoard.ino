@@ -23,7 +23,7 @@
  
 #define MAINFILE
 
-#include <Serial.h>
+//#include <Serial.h>  // Not needed in Arduino 1.6 and above
 #include <Servo.h>
 #include "BrainBoard.h"
 

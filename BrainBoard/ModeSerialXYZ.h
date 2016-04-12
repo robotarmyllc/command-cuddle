@@ -7,7 +7,8 @@
 #ifndef MODE_SERIAL_XYZ_H
 #define MODE_SERIAL_XYZ_H
 
-#include <Serial.h>
+// Not needed in Arduino 1.6 and above
+//#include <Serial.h>
 
 class ModeSerialXYZ {
   public:
